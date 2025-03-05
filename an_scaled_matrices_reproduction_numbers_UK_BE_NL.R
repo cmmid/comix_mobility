@@ -598,10 +598,6 @@ other_BE <- ggplot(data = reproduction_all) +
                                 "Linear Model", "Quadratic Model"))
 
 #plot work and other together
-ggarrange(work, other, common.legend = T, legend = "bottom")
-
-
-#plot work and other together
 BE_preds <- ggarrange(work_BE + xlab(NULL) + ylab(NULL), 
                       other_BE + xlab(NULL) + ylab(NULL),
                       common.legend = T, legend = "bottom")

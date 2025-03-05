@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ##linear and polynomial regression 
 
 #load libraries
@@ -17,7 +16,7 @@ theme_set(cowplot::theme_cowplot(font_size = 14) + theme(strip.background = elem
                                                          plot.margin = margin(l = 10, r = 10, b = 5, t = 5)))
 
 #set data path
-data_path <-"C:\\Users\\emiel\\Documents\\LSHTM\\Fellowship\\Project\\comix_mobility\\Data\\"
+data_path <- paste0(here::here(), "/Data/")
 
 #import contact data
 cnts <- qs::qread(file.path(data_path, "cnts_weight_work_middate.qs"))
