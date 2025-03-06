@@ -1,5 +1,3 @@
-##circuit breaker figure practice 
-
 #load libraries
 library(data.table)
 library(ggplot2)
